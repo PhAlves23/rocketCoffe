@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+  }
+
+body {
+    background-color: var(--backgrond);    
+    /* background-image: url(/assets/blur-1.png); */
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-top: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+
+}
+
+nav a {
+    line-height: 0;
+    color: var(--text-color);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: var(--button);
+    transition: .3s;
+
+}
+
+.button {
+    border: 1px solid var(--button);
+    ;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.button:hover {
+    border: 1px solid var(--text-color);
+    color: var(--button);
+    transition: .3s;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700 bold;
+    color: var(--text-color);
+    font-size: 80px;
+}
+.greatcode {
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+}
